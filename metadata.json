@@ -1,0 +1,6 @@
+{
+  "name": "Bio-Detektif: Sirkulasi Darah Manusia",
+  "description": "Sistem Pembelajaran Interaktif IPAS Fase C Kelas VI MIN 1 Paser - Petualangan Misteri dan Penyelamatan Organ Peredaran Darah Manusia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

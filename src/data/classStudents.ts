@@ -1,0 +1,301 @@
+import { ClassStudentData } from '../types/game';
+
+export const INITIAL_STUDENTS: ClassStudentData[] = [
+  {
+    id: 1,
+    noAbsen: 1,
+    nama: 'AHMAD ALFINAJA',
+    nisn: '0128392001',
+    completedLevelsCount: 7,
+    xp: 2150,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Sangat teliti membedakan peredaran darah besar dan kecil'
+  },
+  {
+    id: 2,
+    noAbsen: 2,
+    nama: 'ALIFA GIBRILIANA NURI SYAUDAH',
+    nisn: '0128392002',
+    completedLevelsCount: 7,
+    xp: 2200,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Penguasaan anatomi 4 ruang jantung dan katup sangat baik'
+  },
+  {
+    id: 3,
+    noAbsen: 3,
+    nama: 'AQISHA AZZALEA KINANTI RYANANDA',
+    nisn: '0128392003',
+    completedLevelsCount: 6,
+    xp: 1820,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Berhasil mengatasi plak koroner pada Boss Battle'
+  },
+  {
+    id: 4,
+    noAbsen: 4,
+    nama: 'ASMA DZAKIYAH KHALISAH',
+    nisn: '0128392004',
+    completedLevelsCount: 7,
+    xp: 2240,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Sertifikat dan ikrar hidup sehat telah lengkap'
+  },
+  {
+    id: 5,
+    noAbsen: 5,
+    nama: 'DZAKIRA THALITA ZAHRA',
+    nisn: '0128392005',
+    completedLevelsCount: 7,
+    xp: 2280,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Semua kotak misteri terbuka dan nilai HOTS optimal'
+  },
+  {
+    id: 6,
+    noAbsen: 6,
+    nama: 'EL VIRZHA',
+    nisn: '0128392006',
+    completedLevelsCount: 5,
+    xp: 1450,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Sedang menganalisis rekam medis klinis di Level 5'
+  },
+  {
+    id: 7,
+    noAbsen: 7,
+    nama: 'HAFIZUL AKRAM',
+    nisn: '0128392007',
+    completedLevelsCount: 4,
+    xp: 1150,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Tuntas mengelompokkan 4 komponen darah di Time Attack'
+  },
+  {
+    id: 8,
+    noAbsen: 8,
+    nama: 'HEFNI ABDUL BARY',
+    nisn: '0128392008',
+    completedLevelsCount: 5,
+    xp: 1390,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Mampu membedakan hipertensi dan hipotensi dengan tepat'
+  },
+  {
+    id: 9,
+    noAbsen: 9,
+    nama: 'HUMAIRA MAULIDIYA ISMAIL',
+    nisn: '0128392009',
+    completedLevelsCount: 7,
+    xp: 2190,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Ketelitian tinggi dalam analisis kasus anemia'
+  },
+  {
+    id: 10,
+    noAbsen: 10,
+    nama: 'KAYYIS TALITA RACHMAN',
+    nisn: '0128392010',
+    completedLevelsCount: 6,
+    xp: 1790,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Operasi penyelamatan Pasien X berhasil diselesaikan'
+  },
+  {
+    id: 11,
+    noAbsen: 11,
+    nama: 'KHALISA NAURA KHANZA',
+    nisn: '0128392011',
+    completedLevelsCount: 7,
+    xp: 2260,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Paham mendalam mengenai fungsi hemoglobin dan eritrosit'
+  },
+  {
+    id: 12,
+    noAbsen: 12,
+    nama: 'KHANZA AMIRA ZAHRA',
+    nisn: '0128392012',
+    completedLevelsCount: 7,
+    xp: 2220,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Sangat aktif dalam diskusi sains dan investigasi rekam medis'
+  },
+  {
+    id: 13,
+    noAbsen: 13,
+    nama: 'LUTHFI FAISAL',
+    nisn: '0128392013',
+    completedLevelsCount: 4,
+    xp: 1100,
+    status: 'Sedang Belajar',
+    needRemediation: true,
+    notes: 'Perlu penguatan alur arteri pulmonalis yang mengangkut CO2'
+  },
+  {
+    id: 14,
+    noAbsen: 14,
+    nama: 'MUHAMMAD DZAKY ZAIDAN',
+    nisn: '0128392014',
+    completedLevelsCount: 7,
+    xp: 2310,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Peringkat detektif teladan, refleksi sangat mendalam'
+  },
+  {
+    id: 15,
+    noAbsen: 15,
+    nama: 'MUHAMMAD FATHURRAHMAN RAZIQ',
+    nisn: '0128392015',
+    completedLevelsCount: 6,
+    xp: 1800,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Misi pembersihan aterosklerosis tuntas'
+  },
+  {
+    id: 16,
+    noAbsen: 16,
+    nama: 'MUHAMMAD FATIH ALIF',
+    nisn: '0128392016',
+    completedLevelsCount: 5,
+    xp: 1420,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Mampu menyaring bukti pengalih (red herring) di Level 5'
+  },
+  {
+    id: 17,
+    noAbsen: 17,
+    nama: 'MUHAMMAD NUR HIDAYAT',
+    nisn: '0128392017',
+    completedLevelsCount: 3,
+    xp: 880,
+    status: 'Sedang Belajar',
+    needRemediation: true,
+    notes: 'Perlu bimbingan membaca arah aliran darah pada bilik kiri'
+  },
+  {
+    id: 18,
+    noAbsen: 18,
+    nama: 'MUHAMMAD NUR RIZQI',
+    nisn: '0128392018',
+    completedLevelsCount: 7,
+    xp: 2170,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Menuntaskan seluruh evaluasi HOTS dengan skor tinggi'
+  },
+  {
+    id: 19,
+    noAbsen: 19,
+    nama: 'MUHAMMAD SYARWANI ABDAN',
+    nisn: '0128392019',
+    completedLevelsCount: 6,
+    xp: 1760,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Sedang mempersiapkan misi akhir Level 7'
+  },
+  {
+    id: 20,
+    noAbsen: 20,
+    nama: 'NAFISSAH NUR FAHIRA',
+    nisn: '0128392020',
+    completedLevelsCount: 7,
+    xp: 2300,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Penguasaan konsep sistemik sempurna, komitmen sehat tercatat'
+  },
+  {
+    id: 21,
+    noAbsen: 21,
+    nama: 'NASYWA ULYA AL-GHANI',
+    nisn: '0128392021',
+    completedLevelsCount: 5,
+    xp: 1380,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Analisis gejala aterosklerosis dan varises akurat'
+  },
+  {
+    id: 22,
+    noAbsen: 22,
+    nama: 'NATASYA MEICA SALSABILLA',
+    nisn: '0128392022',
+    completedLevelsCount: 7,
+    xp: 2210,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Sertifikat kelulusan telah siap dicetak'
+  },
+  {
+    id: 23,
+    noAbsen: 23,
+    nama: 'NAURA NADHIFA ULFA',
+    nisn: '0128392023',
+    completedLevelsCount: 7,
+    xp: 2250,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Memahami peran leukosit dalam melawan infeksi kuman'
+  },
+  {
+    id: 24,
+    noAbsen: 24,
+    nama: 'QANITA ZAHRA',
+    nisn: '0128392024',
+    completedLevelsCount: 6,
+    xp: 1770,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Tuntas membedakan sifat arteri, vena, dan kapiler'
+  },
+  {
+    id: 25,
+    noAbsen: 25,
+    nama: 'SHABRIANSYAH MAKARIM',
+    nisn: '0128392025',
+    completedLevelsCount: 4,
+    xp: 1120,
+    status: 'Sedang Belajar',
+    needRemediation: false,
+    notes: 'Time Attack sel darah selesai dengan akurasi 100%'
+  },
+  {
+    id: 26,
+    noAbsen: 26,
+    nama: 'WARDIYAH SYAM',
+    nisn: '0128392026',
+    completedLevelsCount: 7,
+    xp: 2270,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Menemukan seluruh petunjuk rahasia kotak misteri'
+  },
+  {
+    id: 27,
+    noAbsen: 27,
+    nama: 'ZIAN AMIN KUTBHI JAELANI',
+    nisn: '0128392027',
+    completedLevelsCount: 7,
+    xp: 2190,
+    status: 'Misi Selesai',
+    needRemediation: false,
+    notes: 'Paham tindakan preventif gaya hidup sehat sirkulasi'
+  }
+];
